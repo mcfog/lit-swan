@@ -1,0 +1,21 @@
+{
+    "name": "litphp/lit-swan",
+    "description": "psr-7 bridge for Swoole Http Server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "McFog Wang",
+            "email": "mcfogw@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lit\\Swan\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "ext-swoole": ">=1.7.7",
+        "zendframework/zend-diactoros": "^1.1"
+    }
+}
