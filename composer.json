@@ -1,6 +1,6 @@
 {
     "name": "litphp/lit-swan",
-    "description": "psr-7 bridge for Swoole Http Server",
+    "description": "psr-7 middleware runner for swoole-http",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,14 @@
             "Lit\\Swan\\": "src"
         }
     },
+    "keywords": [
+        "swoole",
+        "middleware",
+        "psr",
+        "psr-7",
+        "http",
+        "http-message"
+    ],
     "require": {
         "php": ">=5.5.0",
         "ext-swoole": ">=1.7.7",
