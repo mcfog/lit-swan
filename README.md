@@ -12,7 +12,7 @@ pecl install swoole
 then Swan
 
 ```
-composer require lit/swan
+composer require litphp/lit-swan
 ```
 
 ### Usage
